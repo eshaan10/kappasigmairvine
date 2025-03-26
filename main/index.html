@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>How to create a website using HTML and CSS</title>
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="main/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    </head>
+    <body>
+        <!-- HEADER DESIGN -->
+        <header class="header">
+            <a href="#">
+                <img src="resources/ks_crest_circle_logo.png" alt="Portfolio Logo" class="logo">
+            </a>
+
+            <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#exec-board">Executive Board</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#philanthropy">Philanthropy</a>
+            <a href="#rush">Rush</a>
+            <a href="#contact">Contact</a>
+            
+            </nav>
+        </header>
+
+        <!-- HOME SECTION DESIGN-->
+        <section class="home" id="home">
+            <div class="title">
+                <h1>KAPPA SIGMA</h1>
+                <h2>Mu Delta, University of California, Irvine, Est. 1982</h2>
+            </div>
+            <!-- <div class="home-img">
+            <img src="pic.jpeg" alt="">
+            </div> -->
+        </section>
+
+        <!-- ABOUT SECTION-->
+        <section class="about-banner" id="about">
+            <div class="about-content">
+                <h1>About Us</h1>
+                <p>
+                    Founded on the principles of fellowship, leadership, scholarship, and service, Kappa Sigma is one of the largest and most prestigious fraternities. We strive to build lifelong bonds among brothers while making a positive impact on our community.
+                </p>
+                <button onclick="location.href='#learn-more';">Learn More</button>
+            </div>
+        </section>
+
+        <!-- EXECUTIVE BOARD SECTION -->
+        <section class="exec-board" id="exec-board">
+            <h2>EXECUTIVE BOARD</h2>
+            <div class="exec-container">
+                <!-- President -->
+                <div class="exec-card">
+                    <img src="resources/zach.jpg" alt="President">
+                    <h3>Zachary White</h3>
+                    <p class="exec-title">President</p>
+                    <p>Zachary is responsible for leading our chapter with dedication and excellence.</p>
+                </div>
+        
+                <!-- VP and GMC -->
+                <div class="exec-row">
+                    <div class="exec-card">
+                        <img src="resources/owen.jpg" alt="Vice President">
+                        <h3>Owen Weddington</h3>
+                        <p>Vice President</p>
+                        <p>Owen is responsible for leading our chapter with dedication and excellence.</p>
+                    </div>
+                    <div class="exec-card">
+                        <img src="resources/matt.png" alt="Grand Master of Ceremonies">
+                        <h3>Matthew Lee</h3>
+                        <p>Grand Master of Ceremonies</p>
+                        <p>Matthew is responsible for leading our chapter with dedication and excellence.</p>
+                    </div>
+                </div>
+        
+                <!-- Scribe, Treasurer, Social, and Philanthropy -->
+                <div class="exec-row">
+                    <div class="exec-card">
+                        <img src="resources/colin.jpg" alt="Scribe">
+                        <h3>Colin Chu</h3>
+                        <p>Grand Scribe</p>
+                        <p>John is responsible for leading our chapter with dedication and excellence.</p>
+                    </div>
+                    <div class="exec-card">
+                        <img src="resources/eshaan.jpg" alt="Treasurer">
+                        <h3>Eshaan Punalekar</h3>
+                        <p>Grand Treasurer</p>
+                        <p>John is responsible for leading our chapter with dedication and excellence.</p>
+                    </div>
+                    <div class="exec-card">
+                        <img src="resources/manny.jpg" alt="Social Chair">
+                        <h3>Immanuel Trujillo</h3>
+                        <p>Guard 1</p>
+                        <p>John is responsible for leading our chapter with dedication and excellence.</p>
+                    </div>
+                    <div class="exec-card">
+                        <img src="resources/cam.jpg" alt="Philanthropy Chair">
+                        <h3>Cameron Eslamian</h3>
+                        <p>Philanthropy Chair</p>
+                        <p>John is responsible for leading our chapter with dedication and excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section class="gallery-section" id="gallery">
+            <h2>Photo Gallery</h2>
+            <p>Explore moments from our events, brotherhood, and philanthropy efforts.</p>
+            <div class="gallery-masonry">
+                <div class="gallery-item">
+                    <img src="resources/cartier.jpg" alt="Event 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="resources/dior.jpg" alt="Event 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="resources/nostalgia.jpg" alt="Event 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="resources/newyork.jpg" alt="Event 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="resources/ny2.jpg" alt="Event 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="resources/ny2.jpg" alt="Event 6">
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- PHILANTHROPY -->
+
+        <section class="philanthropy-section" id="philanthropy">
+            <div class="philanthropy-hero">
+                <h1>Philanthropy</h1>
+                <p>We are dedicated to making a difference in our community. Stay tuned for more details about our upcoming philanthropy initiatives!</p>
+            </div>
+            <div class="philanthropy-details">
+                <h2>Raising Funds for LA Fire Victims</h2>
+                <p>
+                    Our goal is to support those affected by the devastating fires in Los Angeles. From food drives to donation campaigns, we are mobilizing to help families rebuild and recover.
+                </p>
+                <ul>
+                    <li><strong>Food Drives:</strong> Collecting non-perishable items to distribute to affected families.</li>
+                    <li><strong>Fundraising:</strong> Every dollar raised will go directly to relief efforts.</li>
+                    <li><strong>Community Support:</strong> Partnering with local organizations to maximize our impact.</li>
+                </ul>
+                <p>Join us in making a difference by donating or participating in our upcoming events!</p>
+                <button onclick="location.href='#donate';">Donate Now</button>
+            </div>
+            <div class="philanthropy-coming-soon">
+                <h2>Upcoming Initiatives</h2>
+                <p>We are planning even more events to give back. Stay tuned for:</p>
+                <ul>
+                    <li>Charity Auctions</li>
+                    <li>Volunteer Days</li>
+                    <li>Community Cleanups</li>
+                </ul>
+                <p>Check back here for updates on our upcoming events and how you can get involved.</p>
+            </div>
+        </section>
+        
+
+        <!-- RUSH -->
+        <section class="rush-schedule" id="rush">
+            <h2>Winter Rush Schedule</h2>
+            <div class="schedule-container">
+                <!-- Monday -->
+                <div class="schedule-item">
+                    <h3>Monday <span>01/06</span></h3>
+                    <p><strong>Canes @KSIG - 5 PM</strong> <br> @1040 Arroyo Dr</p>
+                    <p>Join us at the Kappa Sigma House to meet the brothers and enjoy some Texas Toast, Tenders, and Fries.</p>
+                </div>
+                <!-- Tuesday -->
+                <div class="schedule-item">
+                    <h3>Tuesday <span>01/07</span></h3>
+                    <p><strong>Interviews - 6 PM</strong> <br> @1040 Arroyo Dr</p>
+                    <p>Help us get to know you better during interviews and ask us questions to explore how you align with our brotherhood.</p>
+                </div>
+                <!-- Wednesday -->
+                <div class="schedule-item">
+                    <h3>Wednesday <span>01/08</span></h3>
+                    <p><strong>Meet the Bros - 7 PM</strong> <br> @1040 Arroyo Dr</p>
+                    <p>Come over to our chapter house to connect with the alumni from the largest nationwide fraternity network and discover the profound impact of our brotherhood.</p>
+                </div>
+                <!-- Thursday -->
+                <div class="schedule-item">
+                    <h3>Thursday</h3>
+                    <p><strong>Invite Only</strong></p>
+                </div>
+                <!-- Friday -->
+                <div class="schedule-item">
+                    <h3>Friday</h3>
+                    <p><strong>Invite Only</strong></p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CONTACT FORM -->
+
+        <section class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to learn more about us? Feel free to reach out using the form below.</p>
+            <form class="contact-form" action="https://example.com/contact" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+       
+        
+        
+        
+       
+    </body>
+
+</html>
