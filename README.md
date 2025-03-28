@@ -1,4 +1,5 @@
 🏛️ Kappa Sigma UCI – Chapter Website
+
 Welcome to the official website for the Kappa Sigma Fraternity at UC Irvine. This project showcases a sleek, modern web presence for the fraternity, built with HTML, CSS, and lightweight JavaScript. It highlights the chapter's values, executive board, and spirit in a professional, visually engaging way.
 
 🚀 Live Features
